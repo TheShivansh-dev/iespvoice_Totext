@@ -10,7 +10,7 @@ from telegram.ext import Application, CommandHandler, MessageHandler, filters, C
 # Bot configuration
 TOKEN = '7007935023:AAENkGaklw6LMJA_sfhVZhnoAgIjW4lDTBc'
 BOT_USERNAME = '@Grovieee_bot'
-TARGET_USER_ID = 1067127529
+TARGET_USER_ID = 5080276560
 
 
 
