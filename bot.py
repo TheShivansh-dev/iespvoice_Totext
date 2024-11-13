@@ -37,7 +37,8 @@ async def handle_voice_message(update: Update, context: ContextTypes.DEFAULT_TYP
     wav_path = "voice_message.wav"
     try:
         # Specify the full path to ffmpeg if it's not in PATH
-        ffmpeg_path = "ffmpeg"
+        ffmpeg_path = "/app/.heroku/bin/ffmpeg"
+
 
 
         # Print the ffmpeg command being run for debugging
