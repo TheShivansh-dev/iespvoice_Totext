@@ -74,7 +74,7 @@ async def handle_voice_message(update: Update, context: ContextTypes.DEFAULT_TYP
         print("Error transcribing audio:", e)
         transcription_with_details_error = (
             f"Sorry, I couldn’t transcribe the audio.\n\n"
-            f"For username: @{username} | ID: {user_id}"
+            f"For username: @{username} | ID: {user_id} and eception is {e}"
         )
         await context.bot.send_message(chat_id=TARGET_USER_ID, text=transcription_with_details_error)
     
